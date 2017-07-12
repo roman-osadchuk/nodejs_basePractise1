@@ -28,7 +28,7 @@ app.get('/scores/:user', function(req, res, next) {
 
 // response with 404 error if url is invalid
 app.use((req, res, next) => {
-  res.status(404).send();
+    res.status(404).send();
 })
 
 // starting server
